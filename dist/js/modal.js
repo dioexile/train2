@@ -1,0 +1,1 @@
+$(document).ready(function(){var a=$("#button"),o=$("#modal"),t=$("#close"),c=$(".card__link");a.on("click",function(){o.addClass("modal_active")}),c.on("click",function(a){a.preventDefault(),o.addClass("modal_active");var t=$(this).attr("data-target");$(".modal-content").load(t+".html")}),t.on("click",function(){o.removeClass("modal_active")})});

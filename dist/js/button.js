@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".btn"),$("#modal"),$("#close"),$(".card__link")});
